@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Página JS</title>
+
+        <script>
+            window.onload= function()
+            {
+                var p=document.getElementById("paragrafo");
+                alert(p.innerHTML);
+                p.innerHTML="Ola Mundo";
+        
+                var btn= document.getElementById("btnAlerta");
+                btn.onclick= alerta;
+                btn.textContent="Clique Aqui!";
+            }
+            
+            function alerta()
+            {
+                alert("Clicou no botão");
+            }
+
+        </script>
+    </head>
+    <body>
+        <p id="paragrafo">Oi</p>
+        <button id="btnAlerta" onclick="alerta()" >btn</button>
+    </body>
+
+</html>

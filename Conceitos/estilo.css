@@ -1,0 +1,47 @@
+body{ background-image:url("imagens/raiox.jpg");
+	  background-repeat:repeat-x;
+	  background-attachment:rol;
+	  background-color:transparent;
+	  padding: 25PX 25PX 25px 25px;
+}
+
+H1{ 
+    backgroundcolor:#DCDCDC;
+    font-family:Arial Black;
+	color:#6495ED;
+    font-weight:bold;
+	text-transform:capitalize;
+	text-align:center;
+	margin-right:30px;
+	margin-left:30px;
+}
+
+H2{ 
+    background-color:#DCDCDC;
+	font-family:Arial;
+	text-transform:uppercase;
+	font-weight:bolder;
+	text-align:center;
+    
+}
+p{ 
+    background-color:white;
+    font-family:;	
+	font-size:large;
+	text-align:justify;
+	font-weight:lighter;
+	padding-left: 50px;
+	padding-right:150px;
+    width:75%;
+    
+}
+
+h3{ 
+    background-color:#CDC1C5;
+    font-family:Arial;
+    text-transform:capitalize;
+	font-weight:lighter;
+	text-align:left;
+	padding-left:150 px;
+	
+}

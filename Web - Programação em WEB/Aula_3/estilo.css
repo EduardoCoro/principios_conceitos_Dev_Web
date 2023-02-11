@@ -1,0 +1,38 @@
+* {
+    margin:0;
+}
+
+div#corpo{
+    background-color:#000;
+    width:100%;
+                
+}
+
+header{
+    background-color:#f00;
+    width:100%;
+    height:100px;
+    float: left; 
+}
+
+nav {
+    background-color:#00f;
+    width:20%;
+    height: 400px;
+    float: right;
+}
+
+main{
+    background-color:#0f0;
+    width:80%;
+    height:400px;
+    float: left; 
+}
+
+footer{
+    background-color:#f79;
+    width:100%;
+    height:100px;
+    float: left;
+}
+

@@ -1,0 +1,43 @@
+Olá, tudo bem?
+
+Conforme combinamos, este é o trabalho que deve ser entregue na próxima aula (06/04) para compor a nota da primeira prova da nossa disciplina.
+
+----------------------
+
+Os arquivos citados abaixo encontram-se na pasta Site.
+
+1) Faça a diagramação da página redes.html representada pela imagem redes.jpg. Os textos dessa página podem ser obtidos através do arquivo redes.txt.
+
+2) Para formatação, utilize o arquivo contendo a cssreset e crie seus estilos em um arquivo separado.
+
+3) Faça, também, uma página de contato (contato.html) como fizemos em sala de aula. Ela deverá ser exibida a partir do menu Contatos que compõe o menu superior. O menu deve ser marcado utilizando listas e, para exibí-lo na horizontal, consulte a propriedade display da css.
+
+----------------------
+
+Como você deve realizar a entrega:
+
+----------------------
+
+A entrega deve conter 3 folhas: (Não se esqueça de colocar seu nome e RA nas folhas)
+
+Folha 1, contendo as marcações da página redes.html. Não precisa escrever todos os textos da página. Escreva somente a diagramação.
+
+Folha 2, contendo as marcações da página contato.html.
+
+Folha 3, contendo os estilos utilizados somente na css que você fez. Não precisa escrever a cssreset.
+
+Importante: Preste muita atenção em sua indentação.
+
+----------------------
+
+Se ficou com dúvidas, pode enviar-me um e-mail: fernando.tiosso@fatectq.edu.br.
+
+----------------------
+
+Muito obrigado pela sua atenção e colaboração! Que Deus te ilumine na condução de suas atividades!
+
+Excelente feriado e um ótimo final de semana.
+
+Forte abraço!
+Atenciosamente,
+Fernando Tiosso.

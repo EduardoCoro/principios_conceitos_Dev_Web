@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Página </title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="cssreset.css">
+        <style>
+             fieldset#f1{
+                 border:10px solid #043250;
+
+             }
+
+             #f1{
+                 border: 10 solid #00f;
+
+             }
+
+             fieldset{
+                 width: 300px;
+                 padding: 40px;
+                 border:10px solid #f00
+             }
+
+             .c1{
+                 border:10px solid #0ff;
+             }
+
+             fieldset > label{
+                 font-family: Tahoma;
+                 font-size: 14px;
+                 color: #fff;
+             }
+
+             fieldset >label, fieldset > legend{
+                 background-color: #327453
+             }
+
+             textarea, input[type="text"], input[type="email"], 
+             fieldset select, fieldset > legend {
+                 border: 2px #cccccc solid;
+                 border-radius: 10px
+             }
+     
+        </style>
+        <script>
+            window.onload = function()
+            {
+                //document.getElementById("btnEnviar").onclick=validar;
+                document.querySelector("#btnEnviar").onclick=validar;
+                
+            }
+
+            function validar()
+            {
+                var msg="";
+                alert("Validar");
+
+                if(document.querySelector("#txtnome").value == "" )
+                {
+                    msg = " Nome \n";
+                }
+                if(document.querySelector("#txtemail").value == "" )
+                {
+                    msg += " E-mail \n";
+                }
+                if(document.querySelector(#))
+                if(document.querySelector("#rdoSim").checked==false && document.querySelector("#rdoNao").checked==false )
+                {
+                    msg +=" Confirme S/N \n";
+                }
+
+                if(msg != "")
+                {
+                    msg = "Os campos abaixo são obrigatórios: \n " + msg ;
+                    alert(msg);
+                    return false;
+                }
+
+                
+                return true;
+            }
+        </script>    
+    </head>
+    <body>
+        <form action="" method="post">
+            <fieldset class="c1" id="f1"><br>
+                <legend>Dados para contato</legend>
+                <label for="txtnome" class="c1">Nome : </label>
+                <input type="text" id="txtnome" name="txtnome" size="50" maxlength="60" placeholder="Digite o nome...">
+                <br><br>
+                <label for="txtemail" class="c1">E-mail: </label>
+                <input type="email" id="txtemail" name="txtemail" size="50" maxlength="60" placeholder="Digite o E-mail...">
+                <br><br>
+                <label for="cboMotivo" class="c1">Motivo: </label>
+                <select  id="cboMotivo" name="cboMotivo">
+                    <option value="0" selected>--Selecione--</option>
+                    <option value="1">Dúvida</option>
+                    <option value="2" >Sugestão</option>
+                    <option value="3">Reclamação</option>
+                    <option value="4">Elogio</option>
+                </select>
+                <br><br>
+                <label for="txtcomentario" class="c1">Comentário : </label>
+                <br><br>
+                <textarea rows="10" cols="30" id="txtcomentario" name="txtcomentario" placeholder="Comente..."></textarea>
+                <br><br>
+                <label>Deseja receber informações?</label>
+                <input type="radio" id="rdoSim" name="rdoReceberInfo"><label for="rdoSim">Sim</label>
+                <input type="radio" id="rdoNao" name="rdoReceberInfo" ><label for="rdoNao">Não</label>
+                <br><br>
+                <input id="btnEnviar" type="submit" value="Enviar">
+                <input id="btnLimpar" type="reset" value="Limpar">
+                
+            </fieldset>
+        </form>
+        
+    </body>
+</html>

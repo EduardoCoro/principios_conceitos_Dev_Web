@@ -1,0 +1,82 @@
+
+div#corpo{
+    width: 1000px;
+    height: 680px;
+    margin-left : 140px;
+    margin-right : 140px;
+    border: solid 1px;;
+    
+}
+
+header{
+    width: 1000px;
+    height: 100px;
+    padding: 1px;
+    border: 1px;
+    
+}
+
+main{
+    width: 1000px;
+    height: 579px;
+    padding: 1px;
+    
+}
+
+div#esquerda{
+    width: 500px;
+    height: 579px;
+    float: left;
+    
+}
+
+div#direita{
+    width: 500px;
+    height: 579px;
+    float: left;
+    
+}
+
+div#esq_aovivo, div#esq_t2 , div#esq_t3 ,
+div#dir_t1 , div#dir_t2 ,div#dir_t3{
+    padding: 1px;
+    margin-top: 50px;
+    width: 500px;
+    
+}
+
+div#divimg, div#imgconteudo{
+    
+    width: 240px;
+    height: 50px;
+    padding: 2px;
+}
+
+h1{
+    padding: 10px;
+}
+
+h2{
+    padding: 5px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+p{
+    padding: 3px;
+}
+
+p#principal{
+    font-size: 30px;
+    color: #129
+}
+
+p#aovivo{
+    font-size: 60px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    
+}
